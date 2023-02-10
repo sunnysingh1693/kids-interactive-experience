@@ -1,0 +1,52 @@
+.welcomeScreenWrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .modal {
+    position: absolute;
+    $squareDimention: 900px;
+    width: 1200px;
+    height: 900px;
+    background-color: gray;
+
+    h1 {
+      text-transform: uppercase;
+    }
+
+    h1,
+    h2 {
+      text-align: center;
+    }
+
+    .instructionGroup {
+      color: red;
+      display: flex;
+      padding: 0 30px;
+
+      .instruction {
+        display: flex;
+      }
+
+      .instruction:nth-child(2) {
+        padding: 0 20px;
+      }
+
+      svg {
+        width: 128px;
+        padding: 0 10px 0 0;
+      }
+
+      p {
+        color: white;
+      }
+    }
+
+    .buttonsGroup {
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+}

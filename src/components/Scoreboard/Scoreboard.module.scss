@@ -1,0 +1,24 @@
+.scoreboardWrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+
+  .scoreboard {
+    height: 100px;
+    width: 1500px;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .buttonsGroup {
+    button {
+      text-transform: uppercase;
+      margin: 0 20px;
+    }
+  }
+}
